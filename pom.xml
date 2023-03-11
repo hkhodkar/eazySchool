@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.eazybytes</groupId>
-	<artifactId>example_18</artifactId>
+	<artifactId>EazyApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>example_18</name>
+	<name>EazyApplication</name>
 	<description>Eazy School Web Application</description>
 	<properties>
 		<java.version>19</java.version>
@@ -45,10 +45,18 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.thymeleaf.extras</groupId>
+			<artifactId>thymeleaf-extras-springsecurity5</artifactId>
+		</dependency>
 	</dependencies>
 
 </project>
